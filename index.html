@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- estilos -->
+  <link rel="stylesheet" href="./styles.css">
+  <title>Desafio UTN</title>
+</head>
+
+<body>
+  <h1 id="gano">Adivine el número</h1>
+  <h3 id="vidas">Tiene <span>3</span> vidas</h3>
+  <div>
+       <h2>Presione START para adivinar:</h2>
+        <label for="num1">Ingresar un núm del 1 al 10:</label>
+        <input type="number" id="num1" name="num1"><br><br>
+    <button class="button" onclick="juego()">ADIVINAR</button>
+    <button class="button restart" onclick="restart()">REINICIAR</button>
+  </div>
+  <p>Codeado con amor por Alejandro G Vera para UTN 2023</p>
+</body>
+<script src="./homework.js"></script>
+
+</html>
